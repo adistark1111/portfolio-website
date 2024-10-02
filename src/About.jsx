@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import TabComponent from './TabComponent';
 
+
 function About() {
     return (
         <>
@@ -10,7 +11,7 @@ function About() {
                 <div className="About-content">
                     <div className="row">
                         <div className="about-col-1">
-                            <img src="images/background3.jpg" />
+                            <img src="../../images/background3.jpg" />
                         </div>
                         <div className="about-col-2">
                             <h1 className="sub-title">About Me</h1>
