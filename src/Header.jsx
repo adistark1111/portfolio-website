@@ -7,7 +7,7 @@ function Header() {
             <div className="container">
                 <nav>
                     {/* Logo and navigation bar is placed here  */}
-                    <img src="../dist/assets/adi_logo3.png" className="logo" />
+                    <img src="./dist/assets/adi_logo3.png" className="logo" />
                     <ul>
                         <li>
                             <Link to="/home">Home</Link>
