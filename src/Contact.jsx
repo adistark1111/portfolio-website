@@ -19,7 +19,7 @@ function Contact() {
                                 <a href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
                             </div>
-                            <a href="images/Aditya_Kumar_2024.pdf" download className="btn btn2">Download CV</a>
+                            <a href="../dist/assets/Aditya_Kumar_2024.pdf" download className="btn btn2">Download CV</a>
                         </div>
                         <div className="contact-right">
                             <ContactForm />
