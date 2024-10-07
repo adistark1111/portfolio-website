@@ -3,7 +3,7 @@ import Header from './Header'
 import TabComponent from './TabComponent';
 
 
-function About() {
+const About = () =>  {
     return (
         <>
             <Header />

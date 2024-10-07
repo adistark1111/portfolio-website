@@ -1,13 +1,18 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-function Header() {
+
+const Header = () => {
+    // const logoImage = "https://i.imgur.com/1v46hfT.jpg";
     return (
         <div id="header">
             <div className="container">
                 <nav>
                     {/* Logo and navigation bar is placed here  */}
-                    <img src="https://drive.google.com/uc?export=view&id=1MUM0PVvzgAKMt1yy3JhL53zhbFAN-Lbu" className="logo" />
+
+                    <img src="https://i.imgur.com/1v46hfT.jpg" alt="Description" className='logo'/>
+
+
                     <ul>
                         <li>
                             <Link to="/home">Home</Link>
@@ -31,4 +36,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;
