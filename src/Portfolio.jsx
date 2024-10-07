@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 
-function Portfolio() {
+const Portfolio = () => {
     return (
         <>
             <Header />
@@ -10,7 +10,7 @@ function Portfolio() {
                     <h1 className="sub-title">My Work</h1>
                     <div className="work-list">
                             <div className="work">
-                                <img src="./../src/assets/work-3.png" />
+                                <img src="https://i.imgur.com/X3wkiQ1.jpg" />
                                 <div className="layer">
                                 <h3>Online Shopping App</h3>
                                 <p>Shop your favorite brands, discover deals, and enjoy fast delivery—all in one app. Download it from play store.
@@ -19,7 +19,7 @@ function Portfolio() {
                                 </div>
                             </div>
                         <div className="work">
-                            <img src="./../src/assets/work-1.png" />
+                            <img src="https://i.imgur.com/pdl05ss.jpg" />
                             <div className="layer">
                                 <h3>Social Media App</h3>
                                 <p>The app connects you to the talented people around the world. Download it from play store.
@@ -28,7 +28,7 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="work">
-                            <img src="./../src/assets/work-2.png" />
+                            <img src="https://i.imgur.com/KnmG9d8.jpg" />
                             <div className="layer">
                                 <h3>Music App</h3>
                                 <p>

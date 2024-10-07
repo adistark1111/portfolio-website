@@ -11,7 +11,7 @@ const About = () =>  {
                 <div className="About-content">
                     <div className="row">
                         <div className="about-col-1">
-                            <img src="./../src/assets/background3.JPG" alt='aboutPage Image' />
+                            <img src="https://i.imgur.com/E2WijGY.jpg" alt='aboutPage Image' />
                         </div>
                         <div className="about-col-2">
                             <h1 className="sub-title">About Me</h1>

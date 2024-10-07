@@ -7,7 +7,7 @@ import Portfolio from './Portfolio'
 import Contact from './Contact'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-function App() {
+const App = () => {
 
   return (
     <>

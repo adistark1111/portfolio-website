@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 
-function Services() {
+const Services = () => {
     return (
         <>
             <Header />
@@ -43,4 +43,4 @@ function Services() {
     )
 }
 
-export default Services
+export default Services;

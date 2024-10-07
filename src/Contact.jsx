@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import ContactForm from './ContactForm'
 
-function Contact() {
+const Contact = () => {
     return (
         <>
             <Header />
@@ -19,7 +19,7 @@ function Contact() {
                                 <a href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
                             </div>
-                            <a href="./../src/assets/Aditya_Kumar_2024.pdf" download className="btn btn2">Download CV</a>
+                            <a href="https://drive.google.com/uc?export=download&id=1-h4O5H4dIc1bVipRrZhOGCJfIaoIzYO1" download className="btn btn2">Download CV</a>
                         </div>
                         <div className="contact-right">
                             <ContactForm />
@@ -34,4 +34,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default Contact;
